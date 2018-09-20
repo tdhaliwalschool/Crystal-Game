@@ -1,1 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>CRYSTAL GAME</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <style>
+           body {
+               
+                font: 400 15px Lato, sans-serif;
+                color: #818181;
+                margin: 0;
+                height: 100%;
+            }
+    
+            h2,
+            h3,
+                {
+                font-size: 24px;
+                text-transform: uppercase;
+                color: white;
+                font-weight: 600;
+                margin-bottom: 30px;
+            }
+    
+            h1 {
+                font-style: italic;
+                color: yellow;
+                text-shadow: 1px 1px 0 #444;
+                font-weight: 600;
+                margin-bottom: 30px;
+                font-size: 24px;
+                text-transform: uppercase;
+                line-height: 1.375em;
+            }
+
+
+img .crystal{
+width: 100px;
+height: auto;
+}
+
+#crystal-one, #crystal-two, #crystal-three, #crystal-four{
+
+
+width: 100px;
+
+
+height: auto;
+
+
+}
+</style>
+
+</head>
+
+
+<body>
+
+
+  <h1>Gem Game</h1>
+
+
+  <div>Winning number</div>
+
+
+  <div id="random-winning-score"> </div>
+
+
+  <div id="result-display"></div>
+
+
+  <div>wins</div>
+
+
+  <div id="wins"> </div>
+
+
+  <div>losses</div>
+
+
+  <div id="losses"> </div>
+
+
+  <div>user score</div>
+
+
+  <div id="user-score"> </div>
+
+  <img src="assets/images/crystal-1.png" alt="crystal-1" class="img crystal" id="crystal-one">
+
+
+  <img src="assets/images/crystal-2.png" alt="crystal-2" class="img crystal" id="crystal-two">
+
+
+  <img src="assets/images/crystal-3.png" alt="crystal-3" class="img crystal" id="crystal-three">
+
+
+  <img src="assets/images/crystal-4.png" alt="crystal-4" class="img crystal" id="crystal-four">
+
+
+  </body>
+</html>
+
 
